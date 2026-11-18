@@ -11,6 +11,11 @@ In hindsight it would be best to find known constants too and load them into the
 <img width="1104" height="499" alt="image" src="https://github.com/user-attachments/assets/aee53ce8-b836-4eeb-b4b5-e4479453cd5c" /> <br>
 
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
 
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
